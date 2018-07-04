@@ -1,25 +1,9 @@
-//DECLARE A VARIBALE
-var firstName;
+(function(){
+  "use strict";
+  function greetMe (yourName) {
+    alert ("Hello " + yourName);
+  }
+  greetMe("Ryeker");
+})()
 
-//DEFINE YOUR VARIABLE
-firstName = "Brad"; //String
-
-//DEFINE AND DECLARE YOUR VARIABLE
-var lastName = "Fraizer";
-
-console.log(firstName, lastName);
-
-//SINGLE LINE COMMENT
-//firstName = "Beeflaser";
-
-//MULTILINE COMMENT
-/*console.log(firstName);*/
-
-
-//SCOPED INDENTING
-/*
-{
-  //NEW SCOPE
-  var myName;
-}
-*/
+console.log("I'd like to gain proficiency with JavaScript so that I can begin a career in programming development.  My hobbies include board games, video games, and music.");

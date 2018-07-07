@@ -1,11 +1,10 @@
-var myString = "Hello, World!*76";
-console.log(typeof myString);
-var myNumber = "43";
-console.log(typeof myNumber);
+var firstName = prompt("What is your first name?");
+console.log(firstName);
 
-var newVariable;
-console.log(newVariable);
+var lastName = prompt("What is your last name?");
+alert(lastName + "?");
 
-var isLoggedIn = false; //BOOLEAN
+var joke = prompt("Now your Social Security Number...");
 
-isLoggedIn = null; //NULL
+var userBday = prompt("What is your birthday?");
+confirm(userBday + "?" + "Is this your correct birthday?");

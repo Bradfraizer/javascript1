@@ -8,3 +8,17 @@ var joke = prompt("Now your Social Security Number...");
 
 var userBday = prompt("What is your birthday?");
 confirm(userBday + "?" + "Is this your correct birthday?");
+
+//WALKTHROUGH
+
+/*
+let birthday =
+new Date(
+  prompt("what is your birthday?")
+);
+
+let confirmBday = confirm(`is ${birthday} your correct birthday`);
+
+if (confirmBday) alert(`${birthday} is in fact your birthday!`);
+
+*/

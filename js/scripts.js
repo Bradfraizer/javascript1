@@ -41,7 +41,7 @@ switch(color.toLowerCase()) {
 // let color = prompt("Which would you say is your favorite color?", "Red, Pink, Blue, Purple, Yellow, Orange, Green, Brown, Black, and Gray.");
 //   if (`${color} == blue`); {
 //     alert(`${name}, did you know that blue is the color instils confidence and inspires feelings of trust, loyalty, integrity and responsibility?`);
-//   }
+//   }  
 //   if (`${color} == red`); {
 //     alert(`${name}, did you know that red is the color used universally to signify danger, courage, strength, and power?`);
 //   }
